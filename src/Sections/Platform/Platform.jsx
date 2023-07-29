@@ -6,8 +6,11 @@ function Platform() {
         <section className="py-24">
             <div className="container">
                 {/* TITLE */}
-                <div className="mb-[100px]">
+                <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="mb-[100px]">
                     <h2
+                        data-aos-delay="500"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
                         className="text-text1 font-medium leading-[56px] text-center mb-[30px]
                         sm:text-4xl
                         lg:text-5xl
@@ -27,12 +30,12 @@ function Platform() {
                     lg:grid-cols-2 lg:gap-[130px]
                     "
                 >
-                    <div className="">
+                    <div data-aos-delay="700" data-aos="fade-right" data-aos-duration="1000">
                         <div className="">
                             <img src={imgCards} alt="imgCards" />
                         </div>
                     </div>
-                    <div className="">
+                    <div data-aos-delay="900" data-aos="fade-left" data-aos-duration="1000">
                         <h3 className="text-text1 text-[36px] font-medium leading-[46px]">Build and develop your ideas with distributed teams</h3>
                         <div className="mt-[30px] mb-[70px]">
                             <p className="text-text2 text-[18px] font-normal leading-[28px]">

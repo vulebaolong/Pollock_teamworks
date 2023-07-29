@@ -14,7 +14,7 @@ function Setup() {
 
             <div className="container ">
                 {/* TITLE */}
-                <div className="mb-[100px]">
+                <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="mb-[100px]">
                     <h2
                         className="text-text1 font-medium leading-[56px] text-center mb-[30px]
                         sm:text-4xl
@@ -33,7 +33,12 @@ function Setup() {
                     lg:grid-cols-2
                     "
                 >
-                    <div className="bg-white flex flex-col items-center rounded-[10px] shadow-[0px_60px_40px_rgba(18,2,47,0.10)]">
+                    <div
+                        data-aos-delay="700"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                        className="bg-white flex flex-col items-center rounded-[10px] shadow-[0px_60px_40px_rgba(18,2,47,0.10)]"
+                    >
                         <p className="text-primary text-[18px] font-medium leading-[28px] tracking-[0.40px] mt-[35px]">Professional</p>
                         <div className="mt-[20px] mb-[10px]">
                             <span className="text-text1 text-[36px] font-medium leading-[46px]">$</span>
@@ -66,7 +71,12 @@ function Setup() {
                         <Button className="w-full" size="big" type="primary" text="Start your free trial" />
                     </div>
 
-                    <div className="bg-white flex flex-col items-center rounded-[10px] shadow-[0px_60px_40px_rgba(18,2,47,0.10)]">
+                    <div
+                        data-aos-delay="900"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        className="bg-white flex flex-col items-center rounded-[10px] shadow-[0px_60px_40px_rgba(18,2,47,0.10)]"
+                    >
                         <p className="text-primary text-[18px] font-medium leading-[28px] tracking-[0.40px] mt-[35px]">Basic</p>
                         <div className="mt-[20px] mb-[10px]">
                             <span className="text-text1 text-[36px] font-medium leading-[46px]">$</span>
@@ -104,7 +114,7 @@ function Setup() {
                     className="grid grid-cols-1
                     lg:grid-cols-2 gap-5 mt-[120px]"
                 >
-                    <div className="space-y-[50px]">
+                    <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="space-y-[50px]">
                         <div className="space-y-[10px]">
                             <p className="text-white text-[18px] font-medium leading-[28px] tracking-[0.40px]">Do I need to enter my payment details to sign up?</p>
                             <p className="text-text6 text-[16px] font-normal leading-[26px]">
@@ -127,7 +137,7 @@ function Setup() {
                             </p>
                         </div>
                     </div>
-                    <div className="space-y-[50px]">
+                    <div data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" className="space-y-[50px]">
                         <div className="space-y-[10px]">
                             <p className="text-white text-[18px] font-medium leading-[28px] tracking-[0.40px]">Do I need to enter my payment details to sign up?</p>
                             <p className="text-text6 text-[16px] font-normal leading-[26px]">
@@ -154,7 +164,7 @@ function Setup() {
 
                 <hr className="border-gray-600 my-[100px]" />
 
-                <div>
+                <div data-aos-delay="900" data-aos="fade-right" data-aos-duration="1000" >
                     <h3
                         className="text-white text-center font-medium leading-[56px]
                         text-3xl

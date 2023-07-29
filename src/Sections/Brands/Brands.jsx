@@ -8,6 +8,9 @@ function Brands() {
         <section className="py-24">
             <div className="container">
                 <h2
+                    data-aos-delay="500"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
                     className="mb-[80px] text-black  font-medium leading-[46px] text-center
                     text-3xl
                     sm:text-3xl
@@ -16,7 +19,7 @@ function Brands() {
                 >
                     Working with the most trusted brands in the industry
                 </h2>
-                <div className="flex items-center justify-evenly flex-wrap gap-10">
+                <div data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" className="flex items-center justify-evenly flex-wrap gap-10">
                     <img src={imgGg} alt="imgGg" />
                     <img src={imgNetflix} alt="imgNetflix" />
                     <img src={imgSlack} alt="imgSlack" />

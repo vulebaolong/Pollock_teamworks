@@ -8,13 +8,16 @@ function Saying() {
         <section className="py-24 bg-section">
             <div className="container">
                 {/* TITLE */}
-                <div className="space-y-[30px]">
+                <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="space-y-[30px]">
                     <h2 className="text-text1 text-[48px] font-medium leading-[56px] text-center">What our clients are saying about us</h2>
                     <p className="text-text4 text-[22px] font-normal leading-[32px] text-center">Customer satisfaction is a primary goal for our company</p>
                 </div>
 
                 {/* CARDS */}
                 <div
+                    data-aos-delay="700"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
                     className="grid  gap-[50px] mt-[80px]
                     grid-cols-1
                     sm:grid-cols-2
@@ -34,7 +37,7 @@ function Saying() {
                             <img src={imgStar} alt="imgStar" />
                         </div>
                         <p className="text-text4 text-[18px] font-normal leading-[28px] text-center">
-                            Overall experience is awesome!! I'm a visual thinker, and I couldnt function without a tool like this.
+                            Overall experience is awesome!! Im a visual thinker, and I couldnt function without a tool like this.
                         </p>
                     </div>
                     <div className="py-[40px] px-[30px] rounded-[20px] flex flex-col items-center shadow-[0px_20px_50px_rgba(79,119,255,0.20)]">
@@ -64,7 +67,7 @@ function Saying() {
                             <img src={imgStar} alt="imgStar" />
                         </div>
                         <p className="text-text4 text-[18px] font-normal leading-[28px] text-center">
-                            Overall experience is awesome!! I'm a visual thinker, and I couldnt function without a tool like this.
+                            Overall experience is awesome!! Im a visual thinker, and I couldnt function without a tool like this.
                         </p>
                     </div>
                 </div>

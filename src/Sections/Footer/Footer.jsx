@@ -1,8 +1,8 @@
-import imgLogo from "../../assets/Logo.png";
 import imgFb from "../../assets/icon_facebook.png";
 import imgTwitter from "../../assets/icon_twitter.png";
 import imgLinkedIn from "../../assets/icon_linkedIn.png";
 import Button from "../../components/Button";
+import Logo from "./../../components/Logo/Logo";
 
 function Footer() {
     return (
@@ -16,10 +16,10 @@ function Footer() {
                     xl:grid-cols-6 xl:gap-0
                     "
                 >
-                    <div className="">
-                        <img src={imgLogo} alt="imgLogo" />
+                    <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="">
+                        <Logo />
                     </div>
-                    <div className="">
+                    <div data-aos-delay="500" data-aos="zoom-in" data-aos-duration="1000" className="">
                         <h4 className="text-white text-[22px] font-normal leading-[32px] mb-[20px]">Company</h4>
                         <div className="space-y-[10px]">
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">About</p>
@@ -29,7 +29,7 @@ function Footer() {
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">Blog</p>
                         </div>
                     </div>
-                    <div className="">
+                    <div data-aos-delay="800" data-aos="zoom-in" data-aos-duration="1000" className="">
                         <h4 className="text-white text-[22px] font-normal leading-[32px] mb-[20px]">Services</h4>
                         <div className="space-y-[10px]">
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">Branding</p>
@@ -39,7 +39,7 @@ function Footer() {
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">Platforms</p>
                         </div>
                     </div>
-                    <div className="">
+                    <div data-aos-delay="1100" data-aos="zoom-in" data-aos-duration="1000" className="">
                         <h4 className="text-white text-[22px] font-normal leading-[32px] mb-[20px]">Contact</h4>
                         <div className="space-y-[10px]">
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">Help Desk</p>
@@ -49,21 +49,21 @@ function Footer() {
                             <p className="text-text6 text-[14px] font-medium uppercase leading-[24px]">Forum</p>
                         </div>
                     </div>
-                    <div className="col-span-2">
+                    <div data-aos-delay="1300" data-aos="zoom-in" data-aos-duration="1000" className="col-span-2">
                         <h4 className="text-white text-[22px] font-normal leading-[32px] mb-[20px]">Newsletter</h4>
                         <p className="text-text6 text-[16px] font-normal leading-[26px]">
                             Subscribe to our newsletter to keep up to date on our marketing, website, design services, and tips.
                         </p>
                         <div className="sm:flex gap-[6px] mt-[25px] mb-[15px] ">
                             <input type="text" className="w-full sm:w-[unset] mb-5 sm:mb-0  py-[11px] flex-1 px-[18px] bg-text6 rounded-[5px]" placeholder="Enter email" />
-                            <Button className='w-full sm:w-[unset]' type="primary" size="small" text="Submit" />
+                            <Button className="w-full sm:w-[unset]" type="primary" size="small" text="Submit" />
                         </div>
                         <p className="text-text6 text-[14px] font-normal leading-[24px]">We hate spam as much as you do. We will never, ever send you such emails. </p>
                     </div>
                 </div>
             </div>
             <hr className="border-gray-700 mt-[100px] " />
-            <div className="container py-[27px]">
+            <div data-aos-delay="800" data-aos="zoom-in" data-aos-duration="1000" className="container py-[27px]">
                 <div className="gap-5 lg:gap-0 lg:flex-row flex-col flex justify-between items-center ">
                     <p className="text-text6 text-[16px] font-normal leading-[26px]">© 2022 Pollock LLC. All Rights Reserved. Terms & Conditions. Privacy Policy.</p>
                     <div className="flex items-center gap-[22px]">

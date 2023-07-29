@@ -15,14 +15,15 @@ function Teamwork() {
                 >
                     <div className="flex">
                         <div className="self-center">
-                            <h3 className="text-[36px] font-medium leading-[46px] text-text1 mb-[30px]">Simplify teamwork for everyone</h3>
-
-                            <p className="text-text2 mt-[30px] mb-[50px] text-[18px] font-normal leading-[28px]">
-                                Give everyone you work with — inside and outside your company — a more productive way to stay in sync.
-                            </p>
+                            <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className=" mb-[50px]">
+                                <h3 className="text-[36px] font-medium leading-[46px] text-text1 ">Simplify teamwork for everyone</h3>
+                                <p className="text-text2  text-[18px] font-normal leading-[28px] mt-[30px]">
+                                    Give everyone you work with — inside and outside your company — a more productive way to stay in sync.
+                                </p>
+                            </div>
 
                             <div className="flex flex-col gap-[30px]">
-                                <div className="flex gap-[13px]">
+                                <div data-aos-delay="700" data-aos="fade-right" data-aos-duration="1000" className="flex gap-[13px]">
                                     <div className="w-[32px] h-[32px]">
                                         <img className="w-full" src={imgFocus} alt="imgFocus" />
                                     </div>
@@ -34,7 +35,7 @@ function Teamwork() {
                                     </div>
                                 </div>
 
-                                <div className="flex gap-[13px]">
+                                <div data-aos-delay="900" data-aos="fade-right" data-aos-duration="1000" className="flex gap-[13px]">
                                     <div className="w-[32px] h-[32px]">
                                         <img className="w-full" src={imgIncrease} alt="imgIncrease" />
                                     </div>
@@ -46,7 +47,7 @@ function Teamwork() {
                                     </div>
                                 </div>
 
-                                <div className="flex gap-[13px]">
+                                <div data-aos-delay="1100" data-aos="fade-right" data-aos-duration="1000" className="flex gap-[13px]">
                                     <div className="w-[32px] h-[32px]">
                                         <img className="w-full" src={imgInvite} alt="imgInvite" />
                                     </div>
@@ -60,8 +61,8 @@ function Teamwork() {
                             </div>
                         </div>
                     </div>
-                    <div className="">
-                        <div className="">
+                    <div>
+                        <div data-aos-delay="800" data-aos="fade-left" data-aos-duration="1000">
                             <img src={imgTeamwork} alt="imgTeamwork" />
                         </div>
                     </div>

@@ -56,13 +56,67 @@ function HeaderMobile() {
                         </div>
 
                         <div className="flex items-center justify-center h-full">
-                            <div className="flex flex-col mx-auto  items-center gap-16 ">
-                                <span className={`${style.nav_active} text-white text-4xl font-medium leading-[24px]`}>Home</span>
-                                <span className="text-white text-4xl font-medium leading-[24px]">Services</span>
-                                <span className="text-white text-4xl font-medium leading-[24px]">About</span>
-                                <span className="text-white text-4xl font-medium leading-[24px]">Pages</span>
-                                <span className="text-white text-4xl font-medium leading-[24px]">Blog</span>
-                                <span className="text-white text-4xl font-medium leading-[24px]">Contact</span>
+                            <div className="flex flex-col mx-auto items-center gap-10 md:gap-16 ">
+                                <a href="#">
+                                    <span
+                                        className={`${style.nav_active} text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                    `}
+                                    >
+                                        Home
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        className="text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                    "
+                                    >
+                                        Services
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        className="text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                        "
+                                    >
+                                        About
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        className="text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                        "
+                                    >
+                                        Pages
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        className="text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                        "
+                                    >
+                                        Blog
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span
+                                        className="text-white  font-medium 
+                                        text-2xl
+                                        sm:text-4xl sm:leading-[24px]
+                                        "
+                                    >
+                                        Contact
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -8,6 +8,9 @@ function Connect() {
         <section>
             <div className="container py-24">
                 <h2
+                    data-aos-delay="500"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
                     className="text-text1 text-center mb-[92px] font-medium leading-[72px]
                     sm:text-4xl
                     md:text-5xl
@@ -25,6 +28,9 @@ function Connect() {
                 >
                     <div className="flex flex-col gap-[30px]">
                         <div
+                            data-aos-delay="700"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
                             className="ml-auto p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
                             sm:w-[440px]
                             "
@@ -43,6 +49,9 @@ function Connect() {
                         </div>
 
                         <div
+                            data-aos-delay="900"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
                             className="p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
                             sm:w-[440px]
                             "
@@ -59,6 +68,9 @@ function Connect() {
                         </div>
 
                         <div
+                            data-aos-delay="1100"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
                             className="ml-auto p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
                             sm:w-[440px]
                             "
@@ -74,7 +86,7 @@ function Connect() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex">
+                    <div data-aos-delay="800" data-aos="fade-left" data-aos-duration="1000" className="flex">
                         <div className="self-center">
                             <h3
                                 className=" font-medium leading-[46px] text-text1 mb-[30px]

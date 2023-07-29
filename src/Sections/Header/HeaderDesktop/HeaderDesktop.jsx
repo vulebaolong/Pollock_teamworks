@@ -11,15 +11,26 @@ function HeaderDesktop() {
             {/* LOGO */}
             <Logo />
 
-
             {/* NAV */}
             <div className="space-x-[30px]">
-                <span className={`${style.nav_active} text-white text-[15px] font-medium leading-[24px]`}>Home</span>
-                <span className="text-white text-[15px] font-medium leading-[24px]">Services</span>
-                <span className="text-white text-[15px] font-medium leading-[24px]">About</span>
-                <span className="text-white text-[15px] font-medium leading-[24px]">Pages</span>
-                <span className="text-white text-[15px] font-medium leading-[24px]">Blog</span>
-                <span className="text-white text-[15px] font-medium leading-[24px]">Contact</span>
+                <a href="#">
+                    <span className={`${style.nav_active} text-white text-[15px] font-medium leading-[24px]`}>Home</span>
+                </a>
+                <a href="#">
+                    <span className="text-white text-[15px] font-medium leading-[24px]">Services</span>
+                </a>
+                <a href="#">
+                    <span className="text-white text-[15px] font-medium leading-[24px]">About</span>
+                </a>
+                <a href="#">
+                    <span className="text-white text-[15px] font-medium leading-[24px]">Pages</span>
+                </a>
+                <a href="#">
+                    <span className="text-white text-[15px] font-medium leading-[24px]">Blog</span>
+                </a>
+                <a href="#">
+                    <span className="text-white text-[15px] font-medium leading-[24px]">Contact</span>
+                </a>
             </div>
 
             {/* CONTROL */}

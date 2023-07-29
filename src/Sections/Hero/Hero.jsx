@@ -14,7 +14,7 @@ function Hero() {
                 xl:h-[90vh]
                 "
             >
-                <img className="w-full h-full object-cover" src={bgHero} alt="bgHero" />
+                <img  className="w-full h-full object-cover" src={bgHero} alt="bgHero" />
                 <div className="absolute w-full h-full top-0 left-0">
                     <div className="container pt-[60px] h-full">
                         <div
@@ -27,7 +27,7 @@ function Hero() {
                             xl:grid-cols-2 xl:mt-0
                             "
                         >
-                            <div className="flex">
+                            <div data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000" className="flex">
                                 <div className="self-center">
                                     <p
                                         className=" text-primary font-normal
@@ -70,7 +70,7 @@ function Hero() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex">
+                            <div data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" className="flex">
                                 <div className="w-full self-center">
                                     <img className="w-full" src={imgRightHero} alt="" />
                                 </div>
