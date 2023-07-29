@@ -24,5 +24,3 @@ If you encounter any issues while using Pollock, feel free to reach out to our s
 ## Contributions
 
 We welcome contributions from the community to make Pollock even better. If you would like to contribute to this project, please submit a pull request, and we will review it.
-
-## License
