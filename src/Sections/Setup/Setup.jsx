@@ -15,12 +15,24 @@ function Setup() {
             <div className="container ">
                 {/* TITLE */}
                 <div className="mb-[100px]">
-                    <h2 className="text-text1 text-[48px] font-medium leading-[56px] text-center mb-[30px]">Set up your app, pick a plan later</h2>
+                    <h2
+                        className="text-text1 font-medium leading-[56px] text-center mb-[30px]
+                        sm:text-4xl
+                        lg:text-5xl
+                        "
+                    >
+                        Set up your app, pick a plan later
+                    </h2>
                     <p className="text-text4 text-[22px] font-normal leading-[32px] text-center">Try Shopify free for 14 days, no credit card required</p>
                 </div>
 
                 {/* CONTENT */}
-                <div className="grid grid-cols-2 gap-[30px]">
+                <div
+                    className="grid gap-[30px]
+                    grid-cols-1
+                    lg:grid-cols-2
+                    "
+                >
                     <div className="bg-white flex flex-col items-center rounded-[10px] shadow-[0px_60px_40px_rgba(18,2,47,0.10)]">
                         <p className="text-primary text-[18px] font-medium leading-[28px] tracking-[0.40px] mt-[35px]">Professional</p>
                         <div className="mt-[20px] mb-[10px]">
@@ -88,7 +100,10 @@ function Setup() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-5 mt-[120px]">
+                <div
+                    className="grid grid-cols-1
+                    lg:grid-cols-2 gap-5 mt-[120px]"
+                >
                     <div className="space-y-[50px]">
                         <div className="space-y-[10px]">
                             <p className="text-white text-[18px] font-medium leading-[28px] tracking-[0.40px]">Do I need to enter my payment details to sign up?</p>
@@ -140,8 +155,24 @@ function Setup() {
                 <hr className="border-gray-600 my-[100px]" />
 
                 <div>
-                    <h3 className="text-white text-center text-[48px] font-medium leading-[56px]">Start your 14-day free trial today!</h3>
-                    <p className="mt-[30px] mb-[70px] text-white text-[22px] font-normal leading-[32px] text-center">Try Shopify free for 14 days, no credit card required.</p>
+                    <h3
+                        className="text-white text-center font-medium leading-[56px]
+                        text-3xl
+                        sm:text-4xl
+                        lg:text-[48px]
+                        "
+                    >
+                        Start your 14-day free trial today!
+                    </h3>
+                    <p
+                        className="mt-[30px] mb-[70px] text-white  font-normal leading-[32px] text-center
+                        text-base
+                        sm:text-lg
+                        lg:text-[22px]
+                        "
+                    >
+                        Try Shopify free for 14 days, no credit card required.
+                    </p>
                     <Button className="mx-auto" size="big" type="primary" text="Get Started" />
                 </div>
             </div>

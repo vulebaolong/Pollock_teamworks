@@ -7,14 +7,26 @@ function Platform() {
             <div className="container">
                 {/* TITLE */}
                 <div className="mb-[100px]">
-                    <h2 className="text-text1 text-[48px] font-medium leading-[56px] text-center mb-[30px]">One platform for your team and your work</h2>
+                    <h2
+                        className="text-text1 font-medium leading-[56px] text-center mb-[30px]
+                        sm:text-4xl
+                        lg:text-5xl
+                        "
+                    >
+                        One platform for your team and your work
+                    </h2>
                     <p className="text-text4 text-[18px] font-normal leading-[28px] text-center">
                         Share ideas, make decisions and move work forward with a common purpose and place
                     </p>
                 </div>
 
                 {/* CONTENT */}
-                <div className="grid grid-cols-2 gap-[130px]">
+                <div
+                    className="grid 
+                    grid-cols-1 gap-20
+                    lg:grid-cols-2 lg:gap-[130px]
+                    "
+                >
                     <div className="">
                         <div className="">
                             <img src={imgCards} alt="imgCards" />
@@ -32,7 +44,7 @@ function Platform() {
                                 practices weve picked up from other enterprise customers.
                             </p>
                         </div>
-                        <Button type="primary" size="big" text="Learn More"/>
+                        <Button type="primary" size="big" text="Learn More" />
                     </div>
                 </div>
             </div>

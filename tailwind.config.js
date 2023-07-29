@@ -3,6 +3,7 @@
 export const COLOR_PRIMARY = "#4F77FF";
 export const COLOR_PRIMARY_HOVER = "#476be1";
 export const COLOR_PRIMARY_ACTIVE = "#3f5ec5";
+export const COLOR_GREEN_ACTIVE = "#34C635";
 export const COLOR_TEXT1 = "#2D3958";
 export const COLOR_TEXT2 = "#788190";
 export const COLOR_TEXT3 = "#120F1F";
@@ -12,6 +13,12 @@ export const COLOR_TEXT6 = "#E7E5EA";
 export const BG_SECTION = "#F8FAFC";
 export const BG_FOOTER = "#292F3A";
 
+export const HEIGHT_HEADER = "60px";
+export const HEIGHT_HEADER_SM = "60px";
+export const HEIGHT_HEADER_MD = "60px";
+export const HEIGHT_HEADER_LG = "70px";
+export const HEIGHT_HEADER_XL = "80px";
+export const HEIGHT_HEADER_2XL = "86px";
 
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -22,6 +29,14 @@ export default {
             fontFamily: {
                 Outfit: ["Outfit", "sans-serif"],
             },
+            height: () => ({
+                header: HEIGHT_HEADER,
+                header_sm: HEIGHT_HEADER_SM,
+                header_md: HEIGHT_HEADER_MD,
+                header_lg: HEIGHT_HEADER_LG,
+                header_xl: HEIGHT_HEADER_XL,
+                header_2xl: HEIGHT_HEADER_2XL,
+            }),
         },
         accentColor: ({ theme }) => ({
             ...theme("colors"),
@@ -181,6 +196,7 @@ export default {
             primary: COLOR_PRIMARY,
             primary_hover: COLOR_PRIMARY_HOVER,
             primary_active: COLOR_PRIMARY_ACTIVE,
+            green_active: COLOR_GREEN_ACTIVE,
             text1: COLOR_TEXT1,
             text2: COLOR_TEXT2,
             text3: COLOR_TEXT3,

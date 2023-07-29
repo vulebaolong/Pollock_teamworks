@@ -7,7 +7,7 @@ function Button(props) {
     let classNameSize = "";
     switch (type) {
         case "transparent":
-            classNameType = `bg-transparent border-[0.5px] hover:bg-white/90 active:bg-white/80`;
+            classNameType = `bg-transparent border-[0.5px] hover:bg-white/10 active:bg-white/20`;
             break;
 
         case "primarry":
@@ -21,7 +21,7 @@ function Button(props) {
 
     switch (size) {
         case "small":
-            classNameSize = `py-[13px] px-6 text-sm font-medium leading-6 text-white`;
+            classNameSize = `py-[13px] px-9 text-sm font-medium leading-6 text-white`;
             break;
         case "big":
             classNameSize = `text-[15px] font-medium leading-6 text-white py-[18px] px-8`;

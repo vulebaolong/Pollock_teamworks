@@ -7,10 +7,28 @@ function Connect() {
     return (
         <section>
             <div className="container py-24">
-                <h2 className="text-[64px] text-text1 text-center mb-[92px] font-medium leading-[72px]"> A new way to connect with your team</h2>
-                <div className="grid grid-cols-2 gap-[110px]">
+                <h2
+                    className="text-text1 text-center mb-[92px] font-medium leading-[72px]
+                    sm:text-4xl
+                    md:text-5xl
+                    lg:text-5xl
+                    xl:text-[64px]
+                    "
+                >
+                    A new way to connect with your team
+                </h2>
+                <div
+                    className="grid gap-[110px]
+                    grid-cols-1
+                    lg:grid-cols-2
+                    "
+                >
                     <div className="flex flex-col gap-[30px]">
-                        <div className="ml-auto p-[30px] w-[440px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]">
+                        <div
+                            className="ml-auto p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
+                            sm:w-[440px]
+                            "
+                        >
                             <div className="flex">
                                 <div className="w-[50px] h-[50px] flex-shrink-0 mr-[20px]">
                                     <img className="w-full h-full" src={imgProject} alt="imgProject" />
@@ -24,7 +42,11 @@ function Connect() {
                             </div>
                         </div>
 
-                        <div className="p-[30px] w-[440px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]">
+                        <div
+                            className="p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
+                            sm:w-[440px]
+                            "
+                        >
                             <div className="flex">
                                 <div className="w-[50px] h-[50px] flex-shrink-0 mr-[20px]">
                                     <img className="w-full h-full" src={imgCentralized} alt="imgCentralized" />
@@ -36,7 +58,11 @@ function Connect() {
                             </div>
                         </div>
 
-                        <div className="ml-auto p-[30px] w-[440px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]">
+                        <div
+                            className="ml-auto p-[30px] bg-white rounded-[20px] shadow-[0px_20px_50px_rgba(79,119,255,0.20)]
+                            sm:w-[440px]
+                            "
+                        >
                             <div className="flex">
                                 <div className="w-[50px] h-[50px] flex-shrink-0 mr-[20px]">
                                     <img className="w-full h-full" src={imgDigital} alt="imgDigital" />
@@ -50,7 +76,15 @@ function Connect() {
                     </div>
                     <div className="flex">
                         <div className="self-center">
-                            <h3 className="text-[36px] font-medium leading-[46px] text-text1 mb-[30px]">Move faster by organizing your work</h3>
+                            <h3
+                                className=" font-medium leading-[46px] text-text1 mb-[30px]
+                                sm:text-xl 
+                                md:text-2xl 
+                                lg:text-[36px] 
+                                "
+                            >
+                                Move faster by organizing your work
+                            </h3>
                             <div className="mb-[70px]">
                                 <p className="text-text2 text-[18px] font-normal leading-[28px]">
                                     The key to productivity in Pollock is organized spaces called channels— a different one for everything you are working on. With all the people,

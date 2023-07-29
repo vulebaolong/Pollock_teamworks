@@ -14,7 +14,14 @@ function Saying() {
                 </div>
 
                 {/* CARDS */}
-                <div className="grid grid-cols-3 gap-[50px] mt-[80px]">
+                <div
+                    className="grid  gap-[50px] mt-[80px]
+                    grid-cols-1
+                    sm:grid-cols-2
+                    md:grid-cols-2
+                    lg:grid-cols-3
+                    "
+                >
                     <div className="py-[40px] px-[30px] rounded-[20px] flex flex-col items-center shadow-[0px_20px_50px_rgba(79,119,255,0.20)]">
                         <img src={imgAvatar1} alt="imgAvatar1" />
                         <p className="text-text1 mt-[10px] mb-[5px] text-[22px] font-normal leading-[32px]">Monica Smith</p>

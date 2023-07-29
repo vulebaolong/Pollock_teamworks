@@ -7,7 +7,12 @@ function Teamwork() {
     return (
         <section className="py-24 bg-section">
             <div className="container">
-                <div className="grid grid-cols-2">
+                <div
+                    className="grid 
+                    grid-cols-1 gap-10
+                    lg:grid-cols-2 lg:gap-0
+                    "
+                >
                     <div className="flex">
                         <div className="self-center">
                             <h3 className="text-[36px] font-medium leading-[46px] text-text1 mb-[30px]">Simplify teamwork for everyone</h3>

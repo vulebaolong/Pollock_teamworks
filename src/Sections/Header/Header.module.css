@@ -1,0 +1,29 @@
+/* STYLE HEADER BAN ĐẦU */
+.header {
+    background-color: transparent;
+    transition: background-color 0.4s ease 0s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* HIỆU ỨNG SẼ CHẠY KHI GIAO THOA */
+.header.sticky {
+    /* background-color: rgb(247, 255, 0.5); */
+    @apply bg-primary_active;
+}
+
+.nav_active {
+    @apply !text-text4 relative ;
+}
+
+.nav_active::after {
+    content: "";
+    transform:  translateX(-50%);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    @apply bg-green_active rounded-full
+}
